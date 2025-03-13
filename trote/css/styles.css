@@ -36,7 +36,7 @@ nav a {
     border-radius: 5px; /* borda com canto arredondado */
 }
 nav a:hover{
-    background-color: lightgreen;
+    background-color: rgb(162, 197, 162);
 }
 img{
     width: 120px;

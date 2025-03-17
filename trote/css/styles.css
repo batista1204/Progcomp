@@ -6,10 +6,10 @@ body {
     text-align: center;
 }
 header{
-    background: #28a745;
+    background: #416ea1;
     color: white;
     /* espaçamento interno 15px acim e abaixo, e 0px esquerda e direta*/
-    padding: 15px 0; 
+    padding: 20px 0; 
     font-size: 24px;
 }
 
@@ -18,7 +18,7 @@ nav {
     padding: 10px;
     display: flex; /* Flex Boxing */
     /* alinhamento na horizontal - espaço entre os links */
-    justify-content: space-between;
+    justify-content: space-around;
     /* alinhamento na vertical */
     align-items: center;
 }
@@ -39,8 +39,7 @@ nav a:hover{
     background-color: rgb(162, 197, 162);
 }
 img{
-    width: 120px;
+    width: 80px;
     height: auto;
     margin-right: 20px; /*espaçamento externo à direita de 20px*/
-    border-radius: 10px;
-}
+    border-radius: 10px;}

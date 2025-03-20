@@ -6,19 +6,19 @@ body {
     text-align: center;
 }
 header{
-    background: #416ea1;
+    background: #5b9ba3;
     color: white;
     /* espaçamento interno 15px acim e abaixo, e 0px esquerda e direta*/
-    padding: 20px 0; 
+    padding: 15px 0; 
     font-size: 24px;
 }
 
 nav {
-    background-color: #007bff;
+    background-color: #8b9eb3;
     padding: 10px;
     display: flex; /* Flex Boxing */
     /* alinhamento na horizontal - espaço entre os links */
-    justify-content: space-around;
+    justify-content: space-between;
     /* alinhamento na vertical */
     align-items: center;
 }
@@ -35,11 +35,31 @@ nav a {
     background: #005663; /* cor de fundo */
     border-radius: 5px; /* borda com canto arredondado */
 }
-nav a:hover{
-    background-color: rgb(162, 197, 162);
+nav a:hover {
+    background: #003d82;
 }
-img{
-    width: 80px;
+
+img {
+    width: 100px;
     height: auto;
-    margin-right: 20px; /*espaçamento externo à direita de 20px*/
-    border-radius: 10px;}
+    margin-right: 5px; /* espaçamento externo à direita de 20px */
+    border-radius: 10px;
+}
+
+.container{
+    width: 80%;
+    /* 20px em cima e em baixo e automática èsquerda e direto*/
+    margin: 20px auto; 
+    background: white;
+    /* espaçamento interno é nos 4 lados */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+h2 {
+    text-align: center;
+}
+
+td {
+    padding: 20px;
+}

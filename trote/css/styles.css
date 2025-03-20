@@ -60,6 +60,34 @@ h2 {
     text-align: center;
 }
 
-td {
+table tr td {
     padding: 20px;
 }
+
+table{
+    margin: 0 auto;
+}
+
+.laranja{
+    background-color:orange
+}
+.azul {
+    background-color: rgb(53, 53, 185);
+    color: white;
+}
+.preta {
+    background-color: black;
+    color: white;
+}
+.roxo {
+    background-color: purple;
+}
+.verde {
+    background-color: green;
+}
+.vermelha {
+    background-color: red;
+}
+
+    
+
